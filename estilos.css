@@ -20,21 +20,15 @@ body {
     height: 50px;
 }
 
-#miniImagenes {
 
-    border: solid 4px red;
-    height: 200px;
-    width: 490px;
-    top: 400px;
-}
 #cambiaImagen{
 
     width: 400px;
     height: 400px;
-    position: absolute;
-    top: 6%;
-    left: 34.6%;
-}
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+  }
 #contenedor {
 
     display: inline-block;
